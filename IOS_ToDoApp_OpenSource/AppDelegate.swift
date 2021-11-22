@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IOS_ToDoApp_OpenSource
 //
-//  Created by Apps Azubi on 22.11.21.
+//  Created by Rawezh on 22.11.21.
 //
 
 import UIKit
@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
         return true
     }
 
